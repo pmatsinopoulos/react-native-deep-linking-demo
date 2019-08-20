@@ -26,5 +26,16 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "plugin:prettier/recommended"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": false,
+    "jsxSingleQuote": false
   }
 }
